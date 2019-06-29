@@ -1,4 +1,7 @@
-"Playing Moneyball with Prediction"
+---
+title: "Playing Moneyball with Prediction"
+---
+
 
 (Team 5)
 
