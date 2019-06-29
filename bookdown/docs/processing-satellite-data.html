@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chapter 6 Processing Satellite Data | Data Analytics for the Public Good</title>
+  <meta name="description" content="A course focused on data-driven practices for public sector organizations.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Chapter 6 Processing Satellite Data | Data Analytics for the Public Good" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A course focused on data-driven practices for public sector organizations." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Processing Satellite Data | Data Analytics for the Public Good" />
+  
+  <meta name="twitter:description" content="A course focused on data-driven practices for public sector organizations." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="collecting-group-data.html">
+<link rel="next" href="using-administrative-data.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="custom.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://ds4ps.github.io/data-driven-management-textbook/">DDM</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
+<li class="chapter" data-level="" data-path="authors.html"><a href="authors.html"><i class="fa fa-check"></i>Authors</a></li>
+<li class="chapter" data-level="1" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html"><i class="fa fa-check"></i><b>1</b> The Big Promise of Big Data</a><ul>
+<li class="chapter" data-level="1.1" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#topic-overview"><i class="fa fa-check"></i><b>1.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="1.2" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#chapter-summaries"><i class="fa fa-check"></i><b>1.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#social-physics-ch1-from-ideas-to-action"><i class="fa fa-check"></i><b>1.2.1</b> Social Physics <strong>CH1 From Ideas to Action</strong></a></li>
+<li class="chapter" data-level="1.2.2" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#digital-humanitarians-ch1-rise-of-digital-humanitarianism"><i class="fa fa-check"></i><b>1.2.2</b> Digital Humanitarians <strong>CH1 Rise of Digital Humanitarianism</strong></a></li>
+<li class="chapter" data-level="1.2.3" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#nyt-the-age-of-big-data"><i class="fa fa-check"></i><b>1.2.3</b> NYT <strong>The Age of Big Data</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#key-take-aways-for-yellowdig"><i class="fa fa-check"></i><b>1.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#discussion-questions"><i class="fa fa-check"></i><b>1.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="the-big-promise-of-big-data.html"><a href="the-big-promise-of-big-data.html#references"><i class="fa fa-check"></i><b>1.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="information-blindness.html"><a href="information-blindness.html"><i class="fa fa-check"></i><b>2</b> Information Blindness</a><ul>
+<li class="chapter" data-level="2.1" data-path="information-blindness.html"><a href="information-blindness.html#the-challenge-of-big-data-information-blindness"><i class="fa fa-check"></i><b>2.1</b> The Challenge of Big Data: Information Blindness</a></li>
+<li class="chapter" data-level="2.2" data-path="information-blindness.html"><a href="information-blindness.html#topic-overview-1"><i class="fa fa-check"></i><b>2.2</b> Topic Overview</a></li>
+<li class="chapter" data-level="2.3" data-path="information-blindness.html"><a href="information-blindness.html#chapter-summaries-1"><i class="fa fa-check"></i><b>2.3</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="2.4" data-path="information-blindness.html"><a href="information-blindness.html#key-take-aways-for-yellowdig-1"><i class="fa fa-check"></i><b>2.4</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="information-blindness.html"><a href="information-blindness.html#discussion-questions-1"><i class="fa fa-check"></i><b>2.4.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="information-blindness.html"><a href="information-blindness.html#references-1"><i class="fa fa-check"></i><b>2.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html"><i class="fa fa-check"></i><b>3</b> Challenges of Organizational Change</a><ul>
+<li class="chapter" data-level="3.1" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html#the-challenges-of-big-data-organizational-change"><i class="fa fa-check"></i><b>3.1</b> The Challenges of Big Data: Organizational Change</a></li>
+<li class="chapter" data-level="3.2" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html#topic-overview-2"><i class="fa fa-check"></i><b>3.2</b> Topic Overview</a></li>
+<li class="chapter" data-level="3.3" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html#chapter-summaries-2"><i class="fa fa-check"></i><b>3.3</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="3.4" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html#key-take-aways-for-yellowdig-2"><i class="fa fa-check"></i><b>3.4</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html#discussion-questions-2"><i class="fa fa-check"></i><b>3.4.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="challenges-of-organizational-change.html"><a href="challenges-of-organizational-change.html#references-2"><i class="fa fa-check"></i><b>3.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html"><i class="fa fa-check"></i><b>4</b> Challenges of Big Data</a><ul>
+<li class="chapter" data-level="4.1" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#challenges-of-big-data-ethics-and-privacy"><i class="fa fa-check"></i><b>4.1</b> Challenges of Big Data: Ethics and Privacy</a></li>
+<li class="chapter" data-level="4.2" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#topic-overview-3"><i class="fa fa-check"></i><b>4.2</b> Topic Overview</a></li>
+<li class="chapter" data-level="4.3" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#chapter-summaries-3"><i class="fa fa-check"></i><b>4.3</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#data-that-turned-the-world-upside-down"><i class="fa fa-check"></i><b>4.3.1</b> Data that turned the world upside down</a></li>
+<li class="chapter" data-level="4.3.2" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#eye-in-the-sky-podcast"><i class="fa fa-check"></i><b>4.3.2</b> Eye in the Sky Podcast</a></li>
+<li class="chapter" data-level="4.3.3" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#weapons-of-math-destruction-intro-pages-1-13"><i class="fa fa-check"></i><b>4.3.3</b> Weapons of Math Destruction – Intro pages 1-13</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#key-take-aways-for-yellowdig-3"><i class="fa fa-check"></i><b>4.4</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#discussion-questions-3"><i class="fa fa-check"></i><b>4.4.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="challenges-of-big-data.html"><a href="challenges-of-big-data.html#references-3"><i class="fa fa-check"></i><b>4.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="collecting-group-data.html"><a href="collecting-group-data.html"><i class="fa fa-check"></i><b>5</b> Collecting Group Data</a><ul>
+<li class="chapter" data-level="5.1" data-path="collecting-group-data.html"><a href="collecting-group-data.html#topic-overview-4"><i class="fa fa-check"></i><b>5.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="5.2" data-path="collecting-group-data.html"><a href="collecting-group-data.html#chapter-summaries-4"><i class="fa fa-check"></i><b>5.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="5.3" data-path="collecting-group-data.html"><a href="collecting-group-data.html#key-take-aways-for-yellowdig-4"><i class="fa fa-check"></i><b>5.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="collecting-group-data.html"><a href="collecting-group-data.html#discussion-questions-4"><i class="fa fa-check"></i><b>5.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="collecting-group-data.html"><a href="collecting-group-data.html#references-4"><i class="fa fa-check"></i><b>5.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html"><i class="fa fa-check"></i><b>6</b> Processing Satellite Data</a><ul>
+<li class="chapter" data-level="6.1" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#topic-overview-5"><i class="fa fa-check"></i><b>6.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="6.2" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#chapter-summaries-5"><i class="fa fa-check"></i><b>6.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#crowd-computing-satellite-and-aerial-imagery"><i class="fa fa-check"></i><b>6.2.1</b> Crowd Computing Satellite and Aerial Imagery</a></li>
+<li class="chapter" data-level="6.2.2" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#artificial-intelligence-in-the-sky"><i class="fa fa-check"></i><b>6.2.2</b> Artificial Intelligence in the Sky</a></li>
+<li class="chapter" data-level="6.2.3" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#eye-in-the-sky"><i class="fa fa-check"></i><b>6.2.3</b> Eye in the Sky</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#key-take-aways-for-yellowdig-5"><i class="fa fa-check"></i><b>6.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#discussion-questions-5"><i class="fa fa-check"></i><b>6.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="processing-satellite-data.html"><a href="processing-satellite-data.html#references-5"><i class="fa fa-check"></i><b>6.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="using-administrative-data.html"><a href="using-administrative-data.html"><i class="fa fa-check"></i><b>7</b> Using Administrative Data</a><ul>
+<li class="chapter" data-level="7.1" data-path="using-administrative-data.html"><a href="using-administrative-data.html#overview"><i class="fa fa-check"></i><b>7.1</b> Overview</a></li>
+<li class="chapter" data-level="7.2" data-path="using-administrative-data.html"><a href="using-administrative-data.html#reality-mining-using-big-data-to-engineer-a-better-world.-chapter-7---taking-the-pulse-of-a-nation-census-mobile-phones-and-internet-giants"><i class="fa fa-check"></i><b>7.2</b> Reality Mining: Using big data to engineer a better world. Chapter 7 - Taking the Pulse of a Nation: Census, Mobile Phones, and Internet Giants</a></li>
+<li class="chapter" data-level="7.3" data-path="using-administrative-data.html"><a href="using-administrative-data.html#the-nypd-was-systematically-ticketing-legally-parked-cars-for-millions-of-dollars-a-year--open-data-just-put-an-end-to-it"><i class="fa fa-check"></i><b>7.3</b> The NYPD Was Systematically Ticketing Legally Parked Cars for Millions of Dollars a Year- Open Data Just Put an End to It,</a></li>
+<li class="chapter" data-level="7.4" data-path="using-administrative-data.html"><a href="using-administrative-data.html#open-data-reveals-791-million-error-in-newly-adopted-nyc-budget"><i class="fa fa-check"></i><b>7.4</b> Open Data Reveals $791 Million Error in Newly Adopted NYC Budget</a></li>
+<li class="chapter" data-level="7.5" data-path="using-administrative-data.html"><a href="using-administrative-data.html#payer-or-prayer--a-look-at-nycs-650-million-property-tax-breaks-related-to-religion"><i class="fa fa-check"></i><b>7.5</b> Payer or Prayer- A Look at NYC’s $650 Million Property Tax Breaks Related to Religion</a></li>
+<li class="chapter" data-level="7.6" data-path="using-administrative-data.html"><a href="using-administrative-data.html#principles-of-open-data"><i class="fa fa-check"></i><b>7.6</b> 8 principles of open data</a></li>
+<li class="chapter" data-level="7.7" data-path="using-administrative-data.html"><a href="using-administrative-data.html#key-take-aways"><i class="fa fa-check"></i><b>7.7</b> Key Take-aways:</a><ul>
+<li class="chapter" data-level="7.7.1" data-path="using-administrative-data.html"><a href="using-administrative-data.html#summary-1"><i class="fa fa-check"></i><b>7.7.1</b> Summary #1:</a></li>
+<li class="chapter" data-level="7.7.2" data-path="using-administrative-data.html"><a href="using-administrative-data.html#summary-2"><i class="fa fa-check"></i><b>7.7.2</b> Summary #2:</a></li>
+<li class="chapter" data-level="7.7.3" data-path="using-administrative-data.html"><a href="using-administrative-data.html#summary-3"><i class="fa fa-check"></i><b>7.7.3</b> Summary #3:</a></li>
+<li class="chapter" data-level="7.7.4" data-path="using-administrative-data.html"><a href="using-administrative-data.html#summary-4"><i class="fa fa-check"></i><b>7.7.4</b> Summary #4:</a></li>
+<li class="chapter" data-level="7.7.5" data-path="using-administrative-data.html"><a href="using-administrative-data.html#summary-5"><i class="fa fa-check"></i><b>7.7.5</b> Summary #5:</a></li>
+</ul></li>
+<li class="chapter" data-level="7.8" data-path="using-administrative-data.html"><a href="using-administrative-data.html#discussion-questions-6"><i class="fa fa-check"></i><b>7.8</b> Discussion Questions:</a></li>
+<li class="chapter" data-level="7.9" data-path="using-administrative-data.html"><a href="using-administrative-data.html#video"><i class="fa fa-check"></i><b>7.9</b> Video:</a></li>
+<li class="chapter" data-level="7.10" data-path="using-administrative-data.html"><a href="using-administrative-data.html#references-6"><i class="fa fa-check"></i><b>7.10</b> References:</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="harnessing-social-media-data.html"><a href="harnessing-social-media-data.html"><i class="fa fa-check"></i><b>8</b> Harnessing Social Media Data</a><ul>
+<li class="chapter" data-level="8.1" data-path="harnessing-social-media-data.html"><a href="harnessing-social-media-data.html#topic-overview-6"><i class="fa fa-check"></i><b>8.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="8.2" data-path="harnessing-social-media-data.html"><a href="harnessing-social-media-data.html#chapter-summaries-6"><i class="fa fa-check"></i><b>8.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="8.3" data-path="harnessing-social-media-data.html"><a href="harnessing-social-media-data.html#key-take-aways-for-yellowdig-6"><i class="fa fa-check"></i><b>8.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="8.3.1" data-path="harnessing-social-media-data.html"><a href="harnessing-social-media-data.html#discussion-questions-7"><i class="fa fa-check"></i><b>8.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="harnessing-social-media-data.html"><a href="harnessing-social-media-data.html#references-7"><i class="fa fa-check"></i><b>8.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="remote-sensors.html"><a href="remote-sensors.html"><i class="fa fa-check"></i><b>9</b> Remote Sensors</a><ul>
+<li class="chapter" data-level="9.1" data-path="remote-sensors.html"><a href="remote-sensors.html#topic-overview-7"><i class="fa fa-check"></i><b>9.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="9.2" data-path="remote-sensors.html"><a href="remote-sensors.html#chapter-summaries-7"><i class="fa fa-check"></i><b>9.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="9.3" data-path="remote-sensors.html"><a href="remote-sensors.html#key-take-aways-for-yellowdig-7"><i class="fa fa-check"></i><b>9.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="remote-sensors.html"><a href="remote-sensors.html#discussion-questions-8"><i class="fa fa-check"></i><b>9.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="remote-sensors.html"><a href="remote-sensors.html#references-8"><i class="fa fa-check"></i><b>9.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html"><i class="fa fa-check"></i><b>10</b> Challenges of Data Quality</a><ul>
+<li class="chapter" data-level="10.1" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html#topic-overview-8"><i class="fa fa-check"></i><b>10.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="10.2" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html#chapter-summaries-8"><i class="fa fa-check"></i><b>10.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="10.3" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html#key-take-aways-for-yellowdig-8"><i class="fa fa-check"></i><b>10.3</b> Key Take-Aways (for Yellowdig)</a></li>
+<li class="chapter" data-level="10.4" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html#synopsis"><i class="fa fa-check"></i><b>10.4</b> Synopsis</a></li>
+<li class="chapter" data-level="10.5" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html#discussion-questions-9"><i class="fa fa-check"></i><b>10.5</b> Discussion Questions</a></li>
+<li class="chapter" data-level="10.6" data-path="challenges-of-data-quality.html"><a href="challenges-of-data-quality.html#references-9"><i class="fa fa-check"></i><b>10.6</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="relationship-discovery.html"><a href="relationship-discovery.html"><i class="fa fa-check"></i><b>11</b> Relationship Discovery</a><ul>
+<li class="chapter" data-level="11.1" data-path="relationship-discovery.html"><a href="relationship-discovery.html#topic-overview-9"><i class="fa fa-check"></i><b>11.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="11.2" data-path="relationship-discovery.html"><a href="relationship-discovery.html#chapter-summaries-9"><i class="fa fa-check"></i><b>11.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="11.2.1" data-path="relationship-discovery.html"><a href="relationship-discovery.html#social-physics-chapter-2---exploration"><i class="fa fa-check"></i><b>11.2.1</b> Social Physics, Chapter 2 - Exploration</a></li>
+<li class="chapter" data-level="11.2.2" data-path="relationship-discovery.html"><a href="relationship-discovery.html#reality-mining-chapter-8---engineering-and-policy-addressing-national-sentiment-economic-deficits-and-disasters"><i class="fa fa-check"></i><b>11.2.2</b> Reality Mining, Chapter 8 - Engineering and Policy: Addressing National Sentiment, Economic Deficits, and Disasters</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="relationship-discovery.html"><a href="relationship-discovery.html#key-take-aways-for-yellowdig-9"><i class="fa fa-check"></i><b>11.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="11.3.1" data-path="relationship-discovery.html"><a href="relationship-discovery.html#discussion-questions-10"><i class="fa fa-check"></i><b>11.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="11.4" data-path="relationship-discovery.html"><a href="relationship-discovery.html#references-10"><i class="fa fa-check"></i><b>11.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="playing-moneyball-with-prediction.html"><a href="playing-moneyball-with-prediction.html"><i class="fa fa-check"></i><b>12</b> Playing Moneyball with Prediction</a><ul>
+<li class="chapter" data-level="12.1" data-path="playing-moneyball-with-prediction.html"><a href="playing-moneyball-with-prediction.html#topic-overview-10"><i class="fa fa-check"></i><b>12.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="12.2" data-path="playing-moneyball-with-prediction.html"><a href="playing-moneyball-with-prediction.html#chapter-summaries-10"><i class="fa fa-check"></i><b>12.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="12.3" data-path="playing-moneyball-with-prediction.html"><a href="playing-moneyball-with-prediction.html#key-take-aways-for-yellowdig-10"><i class="fa fa-check"></i><b>12.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="12.3.1" data-path="playing-moneyball-with-prediction.html"><a href="playing-moneyball-with-prediction.html#discussion-questions-11"><i class="fa fa-check"></i><b>12.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="12.4" data-path="playing-moneyball-with-prediction.html"><a href="playing-moneyball-with-prediction.html#references-11"><i class="fa fa-check"></i><b>12.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="using-big-data-for-evaluation.html"><a href="using-big-data-for-evaluation.html"><i class="fa fa-check"></i><b>13</b> Using Big Data for Evaluation</a><ul>
+<li class="chapter" data-level="13.1" data-path="using-big-data-for-evaluation.html"><a href="using-big-data-for-evaluation.html#topic-overview-11"><i class="fa fa-check"></i><b>13.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="13.2" data-path="using-big-data-for-evaluation.html"><a href="using-big-data-for-evaluation.html#chapter-summaries-11"><i class="fa fa-check"></i><b>13.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="13.2.1" data-path="using-big-data-for-evaluation.html"><a href="using-big-data-for-evaluation.html#discussion-questions-12"><i class="fa fa-check"></i><b>13.2.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="using-big-data-for-evaluation.html"><a href="using-big-data-for-evaluation.html#references-12"><i class="fa fa-check"></i><b>13.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="motivating-people.html"><a href="motivating-people.html"><i class="fa fa-check"></i><b>14</b> Motivating People</a><ul>
+<li class="chapter" data-level="14.1" data-path="motivating-people.html"><a href="motivating-people.html#topic-overview-12"><i class="fa fa-check"></i><b>14.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="14.2" data-path="motivating-people.html"><a href="motivating-people.html#chapter-summaries-12"><i class="fa fa-check"></i><b>14.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="14.2.1" data-path="motivating-people.html"><a href="motivating-people.html#daniel-pink-2010-what-motivates-us-harvard-business-review"><i class="fa fa-check"></i><b>14.2.1</b> Daniel Pink (2010) What Motivates Us? Harvard Business Review</a></li>
+<li class="chapter" data-level="14.2.2" data-path="motivating-people.html"><a href="motivating-people.html#chapter-4-social-physics--engagement"><i class="fa fa-check"></i><b>14.2.2</b> Chapter 4 Social Physics- Engagement</a></li>
+<li class="chapter" data-level="14.2.3" data-path="motivating-people.html"><a href="motivating-people.html#sutherland-j.j.-2014-scrum-the-art-of-doing-twice-the-work-in-half-the-time.-ch1"><i class="fa fa-check"></i><b>14.2.3</b> Sutherland, J.J. (2014) Scrum: the art of doing twice the work in half the time. CH1</a></li>
+<li class="chapter" data-level="14.2.4" data-path="motivating-people.html"><a href="motivating-people.html#duhigg-c.-2016-what-we-learned-from-googles-efforts-to-build-a-perfect-team.-the-new-york-times-magazine-feb-25-2016"><i class="fa fa-check"></i><b>14.2.4</b> Duhigg, C. (2016) “What we learned from Google’s Efforts to Build a Perfect Team.” The New York Times Magazine, Feb 25, 2016</a></li>
+<li class="chapter" data-level="14.2.5" data-path="motivating-people.html"><a href="motivating-people.html#the-book-smarter-faster-better-the-secretes-of-being-productive-in-life-and-business-by-charles-duhigg-chapter-5-managing-others"><i class="fa fa-check"></i><b>14.2.5</b> The Book Smarter Faster Better-The secretes of being Productive in Life and Business by Charles Duhigg, Chapter 5 Managing Others</a></li>
+</ul></li>
+<li class="chapter" data-level="14.3" data-path="motivating-people.html"><a href="motivating-people.html#key-take-aways-for-yellowdig-11"><i class="fa fa-check"></i><b>14.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="14.3.1" data-path="motivating-people.html"><a href="motivating-people.html#discussion-questions-13"><i class="fa fa-check"></i><b>14.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="14.4" data-path="motivating-people.html"><a href="motivating-people.html#references-13"><i class="fa fa-check"></i><b>14.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="building-effective-teams.html"><a href="building-effective-teams.html"><i class="fa fa-check"></i><b>15</b> Building Effective Teams</a><ul>
+<li class="chapter" data-level="15.1" data-path="building-effective-teams.html"><a href="building-effective-teams.html#topic-overview-13"><i class="fa fa-check"></i><b>15.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="15.2" data-path="building-effective-teams.html"><a href="building-effective-teams.html#chapter-summaries-13"><i class="fa fa-check"></i><b>15.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="15.3" data-path="building-effective-teams.html"><a href="building-effective-teams.html#key-take-aways-1"><i class="fa fa-check"></i><b>15.3</b> Key Take-Aways</a><ul>
+<li class="chapter" data-level="15.3.1" data-path="building-effective-teams.html"><a href="building-effective-teams.html#discussion-questions-14"><i class="fa fa-check"></i><b>15.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="15.4" data-path="building-effective-teams.html"><a href="building-effective-teams.html#references-14"><i class="fa fa-check"></i><b>15.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="managerial-experiments.html"><a href="managerial-experiments.html"><i class="fa fa-check"></i><b>16</b> Managerial Experiments</a><ul>
+<li class="chapter" data-level="16.1" data-path="managerial-experiments.html"><a href="managerial-experiments.html#topic-overview-14"><i class="fa fa-check"></i><b>16.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="16.2" data-path="managerial-experiments.html"><a href="managerial-experiments.html#chapter-summaries-14"><i class="fa fa-check"></i><b>16.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="16.3" data-path="managerial-experiments.html"><a href="managerial-experiments.html#key-take-aways-for-yellowdig-12"><i class="fa fa-check"></i><b>16.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="16.3.1" data-path="managerial-experiments.html"><a href="managerial-experiments.html#discussion-questions-15"><i class="fa fa-check"></i><b>16.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="16.4" data-path="managerial-experiments.html"><a href="managerial-experiments.html#references-15"><i class="fa fa-check"></i><b>16.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="amazon-vs-zappos.html"><a href="amazon-vs-zappos.html"><i class="fa fa-check"></i><b>17</b> Amazon vs Zappos</a><ul>
+<li class="chapter" data-level="17.1" data-path="amazon-vs-zappos.html"><a href="amazon-vs-zappos.html#topic-overview-15"><i class="fa fa-check"></i><b>17.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="17.2" data-path="amazon-vs-zappos.html"><a href="amazon-vs-zappos.html#chapter-summaries-15"><i class="fa fa-check"></i><b>17.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="17.3" data-path="amazon-vs-zappos.html"><a href="amazon-vs-zappos.html#key-take-aways-for-yellowdig-13"><i class="fa fa-check"></i><b>17.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="17.3.1" data-path="amazon-vs-zappos.html"><a href="amazon-vs-zappos.html#discussion-questions-16"><i class="fa fa-check"></i><b>17.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="17.4" data-path="amazon-vs-zappos.html"><a href="amazon-vs-zappos.html#references-16"><i class="fa fa-check"></i><b>17.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="18" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html"><i class="fa fa-check"></i><b>18</b> Manipulating Crowds</a><ul>
+<li class="chapter" data-level="18.1" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#topic-overview-16"><i class="fa fa-check"></i><b>18.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="18.2" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#chapter-summaries-16"><i class="fa fa-check"></i><b>18.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="18.2.1" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#weapons-of-math-destruction-chapter-4-propaganda-machine-online-advertising"><i class="fa fa-check"></i><b>18.2.1</b> Weapons of Math Destruction, Chapter 4: Propaganda Machine, Online Advertising</a></li>
+<li class="chapter" data-level="18.2.2" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#weapons-of-math-destruction-chapter-10-the-targeted-citizen-civic-life"><i class="fa fa-check"></i><b>18.2.2</b> Weapons of Math Destruction, Chapter 10: The Targeted Citizen, Civic Life</a></li>
+<li class="chapter" data-level="18.2.3" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#the-data-that-turned-the-world-upside-down"><i class="fa fa-check"></i><b>18.2.3</b> The Data that Turned the World Upside Down</a></li>
+</ul></li>
+<li class="chapter" data-level="18.3" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#key-take-aways-for-yellowdig-14"><i class="fa fa-check"></i><b>18.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="18.3.1" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#discussion-questions-17"><i class="fa fa-check"></i><b>18.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="18.4" data-path="manipulating-crowds.html"><a href="manipulating-crowds.html#references-17"><i class="fa fa-check"></i><b>18.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="19" data-path="best-practices-for-privacy.html"><a href="best-practices-for-privacy.html"><i class="fa fa-check"></i><b>19</b> Best Practices for Privacy</a><ul>
+<li class="chapter" data-level="19.1" data-path="best-practices-for-privacy.html"><a href="best-practices-for-privacy.html#topic-overview-17"><i class="fa fa-check"></i><b>19.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="19.2" data-path="best-practices-for-privacy.html"><a href="best-practices-for-privacy.html#chapter-summaries-17"><i class="fa fa-check"></i><b>19.2</b> Chapter Summaries</a></li>
+<li class="chapter" data-level="19.3" data-path="best-practices-for-privacy.html"><a href="best-practices-for-privacy.html#key-take-aways-for-yellowdig-15"><i class="fa fa-check"></i><b>19.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="19.3.1" data-path="best-practices-for-privacy.html"><a href="best-practices-for-privacy.html#discussion-questions-18"><i class="fa fa-check"></i><b>19.3.1</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="19.4" data-path="best-practices-for-privacy.html"><a href="best-practices-for-privacy.html#references-18"><i class="fa fa-check"></i><b>19.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="20" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html"><i class="fa fa-check"></i><b>20</b> Best Practices for Open Data</a><ul>
+<li class="chapter" data-level="20.1" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#topic-overview-18"><i class="fa fa-check"></i><b>20.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="20.2" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#chapter-summaries-18"><i class="fa fa-check"></i><b>20.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="20.2.1" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#sunlight-foundation-open-data-policy-guidelines-link"><i class="fa fa-check"></i><b>20.2.1</b> Sunlight Foundation: Open Data Policy Guidelines <span>link</span></a></li>
+<li class="chapter" data-level="20.2.2" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#open-data-licenses-link"><i class="fa fa-check"></i><b>20.2.2</b> Open Data Licenses <span>link</span></a></li>
+<li class="chapter" data-level="20.2.3" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#project-open-data"><i class="fa fa-check"></i><b>20.2.3</b> Project Open Data</a></li>
+<li class="chapter" data-level="20.2.4" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#discussion-questions-19"><i class="fa fa-check"></i><b>20.2.4</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="20.3" data-path="best-practices-for-open-data.html"><a href="best-practices-for-open-data.html#references-19"><i class="fa fa-check"></i><b>20.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="21" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html"><i class="fa fa-check"></i><b>21</b> Ethics of Algorithms</a><ul>
+<li class="chapter" data-level="21.1" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#topic-overview-19"><i class="fa fa-check"></i><b>21.1</b> Topic Overview</a></li>
+<li class="chapter" data-level="21.2" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#chapter-summaries-19"><i class="fa fa-check"></i><b>21.2</b> Chapter Summaries</a><ul>
+<li class="chapter" data-level="21.2.1" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#wmd-chapter-9-no-safe-zone-getting-insurance"><i class="fa fa-check"></i><b>21.2.1</b> WMD Chapter 9 NO SAFE ZONE: Getting Insurance</a></li>
+<li class="chapter" data-level="21.2.2" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#wmd-conclusion"><i class="fa fa-check"></i><b>21.2.2</b> WMD Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="21.3" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#key-take-aways-for-yellowdig-16"><i class="fa fa-check"></i><b>21.3</b> Key Take-Aways (for Yellowdig)</a><ul>
+<li class="chapter" data-level="21.3.1" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#summary-1-1"><i class="fa fa-check"></i><b>21.3.1</b> Summary #1:</a></li>
+<li class="chapter" data-level="21.3.2" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#summary-2-1"><i class="fa fa-check"></i><b>21.3.2</b> Summary #2:</a></li>
+<li class="chapter" data-level="21.3.3" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#discussion-questions-20"><i class="fa fa-check"></i><b>21.3.3</b> Discussion Questions</a></li>
+</ul></li>
+<li class="chapter" data-level="21.4" data-path="ethics-of-algorithms.html"><a href="ethics-of-algorithms.html#references-20"><i class="fa fa-check"></i><b>21.4</b> References</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="www.asu.edu" target="blank">ASU</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Analytics for the Public Good</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="processing-satellite-data" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Processing Satellite Data</h1>
+<p>Team 6 - Tommy Kolwicz and Dennis S Stockwell</p>
+<div id="topic-overview-5" class="section level2">
+<h2><span class="header-section-number">6.1</span> Topic Overview</h2>
+<p>The three references take us through the current best practices for collecting and analyzing different types of imagery and how the public can be used to help process large volumes of data. It is not humanly possible for imagery experts and scientists to analyze the massive amount of satellite, and soon UAV, imagery collected on a daily basis. Crowd sourcing the detection and flagging of whatever the item of interest happens to be is the most efficient method in place today. Incredibly, no matter what the topic of interest is, the public wants to help. Humanitarian, scientific, wildlife preservation, archeological, all have found a following.</p>
+<p>The only things that have been shown to do a better job than humans in analyzing imagery are machines. The second reading takes us to the role AI and machine learning is playing in the processing of data and how we are teaching AI, through crowd sourced training sets, to process data so that interpretation can be done at a larger scale and faster. Time is the element that we are continually attempting to harness. The last reading transitions us to consider the implications of massive campaigns of data collection. Clearly this is a technological capability that we currently possess. The article poses the question, “Should we?”. The article also ponders whether people truly understand how the data will be used and what privacy we may be giving up for the proposed positive outcomes associated with the data collection.</p>
+</div>
+<div id="chapter-summaries-5" class="section level2">
+<h2><span class="header-section-number">6.2</span> Chapter Summaries</h2>
+<div id="crowd-computing-satellite-and-aerial-imagery" class="section level3">
+<h3><span class="header-section-number">6.2.1</span> Crowd Computing Satellite and Aerial Imagery</h3>
+<p>Digital Humanitarians by Patrick Meier (Chapter 4)</p>
+<p>Big Data Fusion, or using multiple different sensor systems and web tools in an integrated manner to produce a coherent operational picture, is the future of crowd sourced Digital Humanitarian work; this is referred to as microtasking. Recent history has shown that there are a number of sensor systems that can be used to collect needed imagery to do the necessary analysis required in a crisis.</p>
+<p>On one end of the spectrum, you have extensive, and expensive, satellite imagery. In 2014, satellite imagery was provided to digital humanitarians online to help in the search and rescue operations of Malaysia Airlines flight 370. In just four days, 8 million volunteers had combed over 400,000 square miles of ocean and land. Crowd sourced imagery analysis has helped try to find the grave of Genghis Khan, search for Steve Fossett’s missing airplane, identify the number of shelters in Somalia, and tag galaxies for astrophysicists.</p>
+<p>For much cheaper, digital humanitarians can buy Unmanned Aerial Vehicles (UAVs). These are becoming less expensive by the day and can be used to collect images of large areas or many images of focused areas. Either way, UAVs are unaffected by clouds or other atmospherics that can cause trouble for satellite images. On the very inexpensive end of the spectrum are kites and balloons. In 2010, balloons and kites that could produce pseudosatellite images were used to document the BP oil spill and the magnitude of destruction.</p>
+<p>No matter the method of collection, the crowd sourcing of analysis is what can make this methodology so powerful. Now, some organizations’ are even experimenting with crowdsourcing the crowdsourcing. In this manner, the most accurate and efficient digital humanitarians are assigned to review the work of others. The most important images are then sent to professional analysts to review and eventually disseminate to the stakeholders on the ground.</p>
+<p>Just as texts and images were the medium used to create crisis maps in aiding emergency response during natural disasters and search and rescue operations, aerial selfies, using small personal UAVs, are already beginning to join the world of crisis mapping. Now aerial views of points of interest to digital humanitarians can be added to a crisis map and combined with tweets and pictures from Image Clickers. The result…Big Data Fusion.</p>
+</div>
+<div id="artificial-intelligence-in-the-sky" class="section level3">
+<h3><span class="header-section-number">6.2.2</span> Artificial Intelligence in the Sky</h3>
+<p>Digital Humanitarians by Patrick Meier (Chapter 6)</p>
+<p>When it comes to Satellite imagery the sheer quantity of images is now outpacing even the ability of microtasking by crowdsourcing. “Microtasking alone can’t actually keep up with 1.5 million square miles of new satellite imagery produced every day – a figure that will increase substantially within just a few years.” Enter the machines. That’s right, just like something out of a 80s movie with Arnold Schwarzenegger, one solution being researched is machine learning and artificial intelligence. Machine learning has shown a lot of capability in the organizing and prioritizing of pictures from disaster response using many of the same techniques as with letters and words. Automated imagery analysis has shown to be extremely effective. In Haiti, the European Commission’s Joint Research Center (JRC) showed a 92% accuracy rate in automatically identifying rubble-filled areas. Unfortunately, “image-based machine-learning classifiers do not ‘port’ well.” In other words, one classification system for one area does not necessarily work for classification in another disaster response in another area.</p>
+<p>Satellite imagery has also been shown to be useful in following refugee migration, estimating building size, and other aspects of disaster relief using such imagery characteristics as shadows. The hard part is getting satellite imagery inside the 24-hour threshold window for being able to have an impact.</p>
+<p>Organizations like Galaxy Zoo have demonstrated that using the crowdsourced human-classified imagery to “train” the machines, they have been able to achieve classifications accuracy greater than 90%. Eventually, at least for Galaxy Zoo, the machines began to outperform the humans and put the volunteers on the sidelines. However, volunteer microtaskers are still needed to create new machine training sets.</p>
+<p>UAV imagery is about to become as much of a “big data problem” as satellite imagery. But creation of training sets for machine learning to make sense of UAV images is already underway via crowd sourcing and microtasking. The University of Maryland’s Institute for Advanced Computer Studies has already developed specialized software to automatically identify Rhino poachers and even the type of weapon they are carrying via pattern-recognition algorithms. These techniques could be easily applied to humanitarian disasters.</p>
+</div>
+<div id="eye-in-the-sky" class="section level3">
+<h3><span class="header-section-number">6.2.3</span> Eye in the Sky</h3>
+<p>Radiolab Podcast <a href="https://www.wnycstudios.org/story/eye-sky" class="uri">https://www.wnycstudios.org/story/eye-sky</a></p>
+<p>Radiolab Podcast: Eye in the Sky was sponsored by Radio Lab a Radio Program on WYNC a public radio station in New York City. The podcast included Manoush Zomorodi and Alex Goldmark from the podcast “Note to Self” and Mr. Ross McNutt the CEO of Persistent Surveillance systems. Mr. Ross McNutt had been a 20 year Airforce Veteran that was part of an Air Force Team looking at how to reduce the deaths as a result of IED attacks in IRAQ. McNutts team developed a system (Project Angel Fire) that photographed a large area and took photos at 1 per second creating a snapshot in time that can be reviewed later. Once an incident has occurred or has been reported, those photos can be looked at in reverse time. Starting from the incident in 1-second intervals in an effort to discover when the device was planted. If the vehicle responsible for the IED can be identified, the technology can also help answer multiple other questions. Where did the car come from? Did it pickup anyone up? Where did it start? The photographs can also be played forward post-event to see where the vehicle went after planting the device. As a result of the review of the photographs Security Forces can be sent to the most likely location of the terror cell.</p>
+<p>The Podcast looks at the Project Angel Fire concept and examines the civilian impact of this technology, primarily law enforcement applications and the tradeoff of security and privacy; could this technology be used in the future by divorce lawyers, real estate people to monitor property, etc? The podcast recognized the potential for its significant ability to support Law Enforcement. A prime example is the city of Juarez Mexico after a killing of a Police Officer. The technology was used to identify the vehicles involved, who they came in contact with, and where they went. That data was used to map the locations these vehicles had in common so that law enforcement could make arrests at these mapped locations. This ultimately took down a drug cell that had been linked to multiple murders.</p>
+<p>The podcast also discusses an incident involving the city of Dayton, Ohio. The city attempted to implement this program and had an open forum to allow residents to discuss their concerns. While many supported the program, the ones that did not were the loudest and prevented implementation. It did recognize that the program might be implemented in the future if the city can develop a better communication strategy, explaining the program and its limitations to reassure the community on what the program will be used for.</p>
+<p>The Podcast participants clearly recognize the potential positive impacts this technology brings to the table, but raise questions about our government and data. Can we trust our government to use the data as they say they will? Just because we can, should we? My opinion is this technology will eventually be utilized in those cites that can afford it, it is my personal opinion programs like this are always better in the open under legal oversight rather than in the shadows as intelligence programs, where they may lack the oversight required to ensure they don’t exceed their guidance.</p>
+</div>
+</div>
+<div id="key-take-aways-for-yellowdig-5" class="section level2">
+<h2><span class="header-section-number">6.3</span> Key Take-Aways (for Yellowdig)</h2>
+<div id="discussion-questions-5" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Discussion Questions</h3>
+<ol style="list-style-type: decimal">
+<li>Chapter 4- Have you heard the term micro tasking or crowd sourcing? Have you been an internet volunteer or a digital humanitarian? Maybe you were and you didn’t even know it.</li>
+<li>Chapter 6- What do you think about the development of AI (artificial Intelligence) to help humans interpret big data? Do you trust AI to make decisions for us?<br />
+</li>
+<li>Eye in the sky - Because we can, should we? Do we trust those with the data to use it as it was intended? What are the privacy concerns and can we protect it once it enters the public domain? Although the information is being used for one purpose now will there be future purposes for the information that we are collecting which we haven’t even thought of yet.</li>
+</ol>
+</div>
+</div>
+<div id="references-5" class="section level2">
+<h2><span class="header-section-number">6.4</span> References</h2>
+<ul>
+<li>Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. CH4 crowd computing satellite and aerial images</li>
+<li>Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. CH6 artificial intelligence in the sky</li>
+<li>Eye in the Sky <a href="https://www.wnycstudios.org/story/eye-sky">Radiolab Podcast</a></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="collecting-group-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="using-administrative-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/DS4PS/data-driven-management-textbook/tree/master/bookdown/ch06.md",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["DDM.pdf", "DDM.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
