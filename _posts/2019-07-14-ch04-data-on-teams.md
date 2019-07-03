@@ -8,19 +8,17 @@ Team 4
 ## Topic Overview
 
 
+
 ## Chapter Summaries
 
-### Data that turned the world upside down
+### Observing People in Organizations
 
-
-### Eye in the Sky Podcast
+### Gathering Group Data
 
 
 
 
 ## Key Take-Aways (for Yellowdig)
-
-
 
 ### Discussion Questions
 
