@@ -97,27 +97,27 @@ You will then reference images in text using markdown syntax (see the Markddown 
 
 ### Groups
 
-**Team 1:**
+**Team 1:**  
 Robert Lott  
 James Hogue  
 Kirsten VanDeventer  
 
-**Team 2:**
+**Team 2:**  
 Annie Ackroyd  
 Victoria Adair  
 Bret Petersen  
 
-**Team 3:**
+**Team 3:**  
 Cody Lundell  
 Christina Worden  
 Daniel Gabiou  
 
-**Team 4:**
+**Team 4:**  
 Martha Ramos  
 Philip Schlotter  
 Randolph Wilkins  
 
-**Team 5:**
+**Team 5:**  
 Troy George  
 Jamie Bandy  
 
