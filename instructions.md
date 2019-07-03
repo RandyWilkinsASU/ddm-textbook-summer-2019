@@ -10,6 +10,7 @@ title: "Instructions"
 ------- 
 <br>
 
+**You must register for GitHub and send your ID to the instructor in order to be added to the project and given permission to edit files.** 
 
 ## Drafting Your Chapter
 
@@ -22,15 +23,13 @@ Your chapter should have four parts:
 ---
 
 
-## (1) Topic Overview (approximately 1-3 pages)
+## (1) Topic Overview (approximately 1 page)
 
-What are the key insights from the readings, and how do they relate to building data-driven organizations? 
-
-Summarize the themes and insights that are common across the readings. Organize them into a coherent topic overview, summarizing the main arguments made by authors. 
+Summarize the themes and insights that are common across the readings. Organize them into a coherent topic overview.
 
 Make sure to reference the evidence and data the authors use to support their arguments, when appropriate. 
 
-Go beyond a summary and offer your own analysis of how the material helps us build data-driven organizations, including some framework for best practices or things to consider. 
+When appropriate, go beyond a summary and offer your own analysis or a framework for best practices. 
 
 ---
 
@@ -39,7 +38,9 @@ Go beyond a summary and offer your own analysis of how the material helps us bui
 
 ## (2) Summaries (approximately 0.5 pages each)
 
-Provide summaries of key arguments and insights provided in each chapter or article you were responsible for. This should be short, typically about half a page. Summaries will vary by content - sometime content is best organized with a few paragraphs of text, others with itemized lists, and in other cases you might want to include graphics or diagrams illustrate content. 
+Provide summaries of key arguments and insights provided in each chapter. This should be short, typically about half a page. 
+
+Summary format will vary by content - sometime material is best organized with a few paragraphs of text, others with itemized lists, and in other cases you might want to include graphics or diagrams illustrate content. 
 
 ---
 
@@ -48,7 +49,7 @@ Provide summaries of key arguments and insights provided in each chapter or arti
 ## (3) Video and Discussion Points
 
 1. Record a short 2-5 minute video presenting a key insight or the main take-aways from your section. The video can be of a team member, or a screen shot of power point slides or graphics as you explain your points.  
-2. Upload the video to YouTube, and insert an iframe of the video into your document. 
+2. Upload the video to a video platform like YouTube, and insert an iframe of the video into your document. 
 3. Draft some guiding questions for things managers or policy-makers should consider.  
 4. Post the video and discussion questions to YellowDig with a link to your completed chapter. 
 
@@ -94,36 +95,31 @@ You will then reference images in text using markdown syntax (see the Markddown 
 
 
 
-# Teams
+### Groups
 
-**Team 1**  
-William Seeley  
-Lauren Zajac  
+**Team 1:**
+Robert Lott  
+James Hogue  
+Kirsten VanDeventer  
 
-**Team 2**  
-Carlos Lopez  
-Matthew Simon  
+**Team 2:**
+Annie Ackroyd  
+Victoria Adair  
+Bret Petersen  
 
-**Team 3**  
-Joseph Lynch  
-Marcela Morales  
+**Team 3:**
+Cody Lundell  
+Christina Worden  
+Daniel Gabiou  
 
-**Team 4**  
-Lindsey Duncan  
-Justin Stoker  
+**Team 4:**
+Martha Ramos  
+Philip Schlotter  
+Randolph Wilkins  
 
-**Team 5**  
-Erin Hart  
-Rachael Goodwin  
-
-**Team 6**  
-Thomas Kolwicz  
-Dennis Stockwell  
-
-**Team 7**  
-Lorna Romero  
-Julie Moore  
-
+**Team 5:**
+Troy George  
+Jamie Bandy  
 
 
 
