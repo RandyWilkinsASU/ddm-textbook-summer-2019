@@ -46,18 +46,18 @@ Summary format will vary by content - sometime material is best organized with a
 
 
 
-## (3) Video and Discussion Points
+## (3)  Discussion Points
 
-1. Record a short 2-5 minute video presenting a key insight or the main take-aways from your section. The video can be of a team member, or a screen shot of power point slides or graphics as you explain your points.  
-2. Upload the video to a video platform like YouTube, and insert an iframe of the video into your document. 
-3. Draft some guiding questions for things managers or policy-makers should consider.  
-4. Post the video and discussion questions to YellowDig with a link to your completed chapter. 
+Each member will contribute a discussion question to Yellowdig based on your chapter content. It can be specific to one of the chapters or a theme that ties them together. 
 
-In YouTube, you will find iframes by clicking on the Share option, and the "Embed" icon.
+You are free to use whichever medium you like for the discussion questions. If you would like to post a video:
+
+1. Upload the video to a video platform like YouTube, and insert an iframe of the video into your document.  
+2. In YouTube, you will find iframes by clicking on the Share option, and the "Embed" icon. 
 
 ![iframe](images/iframe.png)
 
-Paste this text into your markdown document, and it will add the video to your page:
+3. Paste this text into your markdown document, and it will add the video to your page:  
 
 ```
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VVRHTF5Ikro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -66,16 +66,6 @@ Paste this text into your markdown document, and it will add the video to your p
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VVRHTF5Ikro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
-
-## (4) Citations and Bibliography
-
-Cite material using the APA in-text citation style, e.g. Johnson (2012, p. 27). 
-
-A bibliography for the assigned readings are already listed on the page shell. 
-
-You are free to include additional material in the chapter if you want to explore beyond the assigned texts or reference other readings from the course. If you do, be sure to add the new sources to the bibliography. 
-
 
 ## Adding Images
 
@@ -91,6 +81,18 @@ You will then reference images in text using markdown syntax (see the Markddown 
 ```
 
 ---
+
+
+
+## (4) Citations and Bibliography
+
+Cite material using the APA in-text citation style, e.g. Johnson (2012, p. 27). 
+
+A bibliography for the assigned readings are already listed on the page shell. 
+
+You are free to include additional material in the chapter if you want to explore beyond the assigned texts or reference other readings from the course. If you do, be sure to add the new sources to the bibliography. 
+
+
 
 
 
