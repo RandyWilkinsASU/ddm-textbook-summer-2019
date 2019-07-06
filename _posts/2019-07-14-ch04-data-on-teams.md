@@ -2,7 +2,7 @@
 title: "Data on Teams"
 ---
 
-Team 4 
+Team 4: Martha Ramos, Philip Schlotter, Randolph Wilkins
 
 
 ## Topic Overview
