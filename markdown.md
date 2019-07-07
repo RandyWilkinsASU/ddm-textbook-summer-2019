@@ -144,6 +144,15 @@ Or you can link directly to an image online using the URL address of the image:
 
 ---
 
+If you want to include images you need to add the image file to the [images folder](https://github.com/DS4PS/ddm-textbook-summer-2019/tree/master/images) in this repository. Web-friendly formats like PNG, JPEG, or GIF are preferred. 
+
+You can just drag and drop the images into the folder, and GitHub will automatically initiate an upload option. After the upload progress bar is complete, click on the green "Commit changes" icon to complete the upload process.
+
+You will then reference images in text using markdown syntax (see the Markddown Guide above for more details):
+
+
+---
+
 
 
 # Tables
@@ -193,20 +202,6 @@ If you would like to post a video:
 
 
 
-# Images
-
-If you want to include images you need to add the image file to the [images folder](https://github.com/DS4PS/data-driven-management-textbook/tree/master/images) in this repository. Web-friendly formats like PNG, JPEG, or GIF are preferred. 
-
-You can just drag and drop the images into the folder, and GitHub will automatically initiate an upload option. After the upload progress bar is complete, click on the green "Commit changes" icon to complete the upload process.
-
-You will then reference images in text using markdown syntax (see the Markddown Guide above for more details):
-
-
-```
-![iframe](images/iframe.png)
-```
-
----
 
 
 # Blockquotes
