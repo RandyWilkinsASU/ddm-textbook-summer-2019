@@ -12,6 +12,37 @@ title: "Instructions"
 
 **You must register for GitHub and send your ID to the instructor in order to be added to the project and given permission to edit files.** 
 
+
+----
+
+
+### Groups
+
+**Team 1:**  
+Robert Lott  
+James Hogue  
+Kirsten VanDeventer  
+
+**Team 2:**  
+Annie Ackroyd  
+Victoria Adair  
+Bret Petersen  
+
+**Team 3:**  
+Cody Lundell  
+Christina Worden  
+Daniel Gabiou  
+
+**Team 4:**  
+Martha Ramos  
+Philip Schlotter  
+Randolph Wilkins  
+
+**Team 5:**  
+Troy George  
+Jamie Bandy  
+
+
 ## Drafting Your Chapter
 
 You are responsible for creating chapters that present key insights for each topic. The purpose of the exercise is to work collaboratively to create a robust set of notes that can serve as a future reference guide so you can remind yourself about details of the course or quickly identify chapters or articles you want to revisit. Different topics might require different approaches (some lend themselves to check-lists or best-practices, while others might focus on clearly articulating an idea or area of research.). 
@@ -78,35 +109,7 @@ You are free to include additional material in the chapter if you want to explor
 
 
 
-----
 
-
-
-### Groups
-
-**Team 1:**  
-Robert Lott  
-James Hogue  
-Kirsten VanDeventer  
-
-**Team 2:**  
-Annie Ackroyd  
-Victoria Adair  
-Bret Petersen  
-
-**Team 3:**  
-Cody Lundell  
-Christina Worden  
-Daniel Gabiou  
-
-**Team 4:**  
-Martha Ramos  
-Philip Schlotter  
-Randolph Wilkins  
-
-**Team 5:**  
-Troy George  
-Jamie Bandy  
 
 
 
