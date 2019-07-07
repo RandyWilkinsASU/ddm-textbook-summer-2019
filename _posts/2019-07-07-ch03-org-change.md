@@ -7,6 +7,16 @@ Team 3: Cody Lundell, Christina Worden, & Daniel Gabiou
 ## The Challenges of Big Data 
 
 ### Weapons of Math Destruction: Intro
+The Big Data economy is based on math-powered applications that create huge pieces of data from an array of sources and impact
+every form of industry. While many view big data as innovative and transformative, O’Neil (2016) cautions that the math
+powered applications on which big data relies is traced back to the decisions of fallible humans. O’Neil (2016) gives a name
+to these harmful types of models: Weapons of Math Destruction or WMDs for short. Throughout the introduction, O’Neil (2016)
+cites instances of big data being misused and as a result causing serious damage. One example she shares is of Michelle Rhee’s
+work as Chancellor of Washington, DC’s public school system. Rhee was hired to reform the failing school system and developed
+a math-based application to evaluate the teachers to determine who should be fired and who should be rewarded for their
+performance. The application was fraught with bad analysis and many teachers who were performing well ended up being fired.
+O’Neil (2016) uses this example to reinforce her serious concern about WMDs but also to point out that there is a difference
+between math analysis and actual “on-the-ground reality.” 
 
 ### Big Data for Social Innovation
 
