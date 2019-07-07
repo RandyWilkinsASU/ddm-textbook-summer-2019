@@ -36,6 +36,7 @@ between math analysis and actual “on-the-ground reality.”
 
 
 ## Key Take-Aways
+* Feedback in the form of analysis is vital to ensure that the models being created for big data are properly capturing all data points.
 
 ### Discussion Questions
 1) For the "Big Data for Social Innovation" reading, do you agree with the authors that improviving data collection, organization, and analysis will help in solving major social problems?
