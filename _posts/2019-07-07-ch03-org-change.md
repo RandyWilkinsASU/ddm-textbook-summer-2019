@@ -30,6 +30,10 @@ between math analysis and actual “on-the-ground reality.”
 ### Discussion Questions
 1) For the "Big Data for Social Innovation" reading, do you agree with the authors that improviving data collection, organization, and analysis will help in solving major social problems?
 
+2) In the introduction of *Weapons of Math Destruction*, O’Neil explains Michelle Rhee’s work as Chancellor of Washington,
+DC’s public school system and her failure to reform it using math-based applications. Based on the takeaways from the "Big
+Data for Social Innovation" article, what solutions could Rhee have used to bridge the big data gap in her work as Chancellor?
+
 ## References
 
 
