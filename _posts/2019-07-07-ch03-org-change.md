@@ -5,6 +5,16 @@ title: "Challenges of Big Data"
 Team 3: Cody Lundell, Christina Worden, & Daniel Gabiou
 
 ## The Challenges of Big Data 
+The human element of the analysis of data collection and application is critically important when considering the challenges
+of big data. As explained by Duhigg (2016) through the example of debt collectors with Chase Bank, the data which was
+collected and used to increase debt collection among Chase customers was most successful when the debt collectors in a Florida
+Chase office actually applied and discussed the meaning of the data to their work. By absorbing the data and also breaking it
+down to directly affect their work, they were able to learn about the data and also make it more human in its application.
+O’Neil (2016) covers the human element of data collection and use in the introduction of Weapons of Math Destruction. Through
+the story of Washington, DC’s Public School Chancellor, Michelle Rhee, O’Neil explains the disconnect of creating a data model
+to achieve results within the failing public school system. The model was created to evaluate performance but did not include
+proper analysis to fully evaluate the teachers’ performance and capture, for example, instances of bad behavior like teachers
+inflating students test scores. This ill-conceived model resulted in teachers who were performing well being fired. 
 
 ### Weapons of Math Destruction: Intro
 The Big Data economy is based on math-powered applications that create huge pieces of data from an array of sources and impact
