@@ -45,40 +45,13 @@ Summary format will vary by content - sometime material is best organized with a
 ---
 
 
-
 ## (3)  Discussion Points
 
 Each member will contribute a discussion question to Yellowdig based on your chapter content. It can be specific to one of the chapters or a theme that ties them together. 
 
-You are free to use whichever medium you like for the discussion questions. If you would like to post a video:
+You are free to use whichever medium you like for the discussion questions. You can include links to articles, images, or videos on YellowDig. 
 
-1. Upload the video to a video platform like YouTube, and insert an iframe of the video into your document.  
-2. In YouTube, you will find iframes by clicking on the Share option, and the "Embed" icon. 
-
-![iframe](images/iframe.png)
-
-3. Paste this text into your markdown document, and it will add the video to your page:  
-
-```
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VVRHTF5Ikro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VVRHTF5Ikro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-## Adding Images
-
-If you want to include images you need to add the image file to the [images folder](https://github.com/DS4PS/data-driven-management-textbook/tree/master/images) in this repository. Web-friendly formats like PNG, JPEG, or GIF are preferred. 
-
-You can just drag and drop the images into the folder, and GitHub will automatically initiate an upload option. After the upload progress bar is complete, click on the green "Commit changes" icon to complete the upload process.
-
-You will then reference images in text using markdown syntax (see the Markddown Guide above for more details):
-
-
-```
-![iframe](images/iframe.png)
-```
+You can also embed images or videos in your summaries if you find them to be helpful to your topic. See the [Markdown Guide](http://ds4ps.org/ddm-textbook-summer-2019/markdown/) tab for instructions.
 
 ---
 
