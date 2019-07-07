@@ -45,9 +45,19 @@ Summary format will vary by content - sometime material is best organized with a
 ---
 
 
-## (3)  Discussion Points
+## (3)  YellowDig Post
 
-Each member will contribute a discussion question to Yellowdig based on your chapter content. It can be specific to one of the chapters or a theme that ties them together. 
+Each member will contribute a discussion question or an interesting insight to Yellowdig based on your chapter content. It can be specific to one of the chapters, a theme that ties them together, or a useful resource related to the content. **These are invitations to engage the content.**
+
+You receive points for participating in YellowDig discussions:
+
+* 1 point for a new pin with at least 50 words. 
+* 2 points for a comment made to another pin. 
+* 2 points if you receive a comment on your pin. 
+* 1 point for liking another pin. 
+* 5 points if you earn an instructor badge for an informative post. 
+* max of 20 points can be earned each week. 
+* max of 100 points can be earned overall. 
 
 You are free to use whichever medium you like for the discussion questions. You can include links to articles, images, or videos on YellowDig. 
 
