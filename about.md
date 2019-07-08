@@ -30,21 +30,6 @@ This text is meant to provide a broad overview of these topics, broken out into 
 Students in the course have contributed the chapter summaries and best practice overviews.   
 
 
-1. Annie Ackroyd
-1. Bret Petersen
-1. Christina Worden
-1. Cody Lundell
-1. Daniel Gabiou
-1. James Hogue
-1. Jamie Bandy
-1. Kirsten VanDeventer
-1. Martha Ramos
-1. Philip Schlotter
-1. Randolph Wilkins
-1. Robert Lott
-1. Troy George
-1. Victoria Adair 
-
 --- 
 
 ## Why Use GitHub for MPA Courses?
