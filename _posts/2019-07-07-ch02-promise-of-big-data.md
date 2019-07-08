@@ -28,6 +28,15 @@ Meier argues that this experience highlights the promise of big data (i.e. it ca
 
 
 ### NYT **The Age of Big Data**
+This article is about the explosion of available data in recent years, its applications across fields, and how to harness it. The impact of Big Data will extend far beyond the tech companies of Silicon Valley; there are implications for business, government, and academia. According to the article, “There is no area that is going to be untouched” (qtd. in Lohr 2012). The surge in available data has also created a rapidly growing need for workers with data expertise. 
+
+The author defines Big Data as “...advancing trends in technology that open the door to a new approach to understanding the world and making decisions” (Lohr 2012). Large quantities of data are rapidly becoming more available and understandable. Most of Big Data exists as “unstructured data.” However, we are developing new tools, like AI, to gain insight from unstructured data. 
+
+The article compares the impact of Big Data to that of the microscope in the 16th century. We are able to measure behavior and sentiment in fine detail in real time using data from platforms like Google and social media sites.
+
+In business, decision making is becoming more analytical, and it’s paying off. Research shows that data-driven decision making increases productivity. Using Big Data to make predictions also has implications for preventing (or minimizing) public health disasters and economic downturns. 
+
+There are risks associated with Big Data. Privacy is at the top of the list, of course. Other potential pitfalls include an increased risk of false discoveries, biased fact-finding, and unfair or discriminatory statistical inferences. However, the author concludes that, “Despite the caveats, there seems to be no turning back. Data is in the driver’s seat. It’s there, it’s useful and it’s valuable, even hip” (Lohr 2012). 
 
 
 
@@ -42,3 +51,4 @@ Meier argues that this experience highlights the promise of big data (i.e. it ca
 
 * Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH1**
 * Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH1**
+* Lohr, S. (2012). The Age of Big Data. Retrieved from: https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html
