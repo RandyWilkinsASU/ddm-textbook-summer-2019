@@ -1,5 +1,5 @@
 ---
-title: "Social Media Data (Team 1)"
+title: "Social Media Data"
 ---
 
 Team 1: Robert Lott, James Hogue, & Kirsten VanDeventer
