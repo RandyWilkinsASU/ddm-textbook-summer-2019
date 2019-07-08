@@ -4,7 +4,7 @@ title: "Challenges of Big Data"
 
 Team 3: Cody Lundell, Christina Worden, & Daniel Gabiou
 
-## The Challenges of Big Data 
+## The Challenges of Big Data Overview
 The human element of the analysis of data collection and application is critically important when considering the challenges
 of big data. As explained by Duhigg (2016) through the example of debt collectors with Chase Bank, the data which was
 collected and used to increase debt collection among Chase customers was most successful when the debt collectors in a Florida
