@@ -1,5 +1,5 @@
 ---
-title: "Remote Sensors (Team 2)"
+title: "Remote Sensors"
 ---
 
 Team 2: Annie Ackroyd, Victoria Adair, Bret Petersen
