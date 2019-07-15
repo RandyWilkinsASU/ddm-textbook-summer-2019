@@ -34,6 +34,7 @@ Alex Pentland and various graduate students created an innovative way to measure
 ## Key Take-Aways (for Yellowdig)
 * How social networks can make us smarter
 * Breadcrumbs
+* 
 
 
 ### Discussion Questions
