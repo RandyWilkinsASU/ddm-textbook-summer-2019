@@ -40,11 +40,15 @@ Alex Pentland and various graduate students created an innovative way to measure
 
 1. Do you feel that Big Data is here to stay, or in the alternative, here to stay; however, morphed into a more streamlined,    consumer specific and useable for non-invasive group tracking and research?
 
-2.What are your fears about others having/viewing/using your data for research or anticipatory functions related to your specific groups, choices or desires?
+2. What are your fears about others having/viewing/using your data for research or anticipatory functions related to your specific groups, choices or desires?
 
-3.Would you be willing to be watched or listened to at work in order to improve performance?
+3. Would you be willing to be watched or listened to at work in order to improve performance?
 
-4.How would you react if your supervisor gave you feedback that you were dominating your team and not allowing enough interactions and diversity from the other team members?
+4. How would you react if your supervisor gave you feedback that you were dominating your team and not allowing enough interactions and diversity from the other team members?
+
+5. 
+
+6. 
 
 
 ## References
