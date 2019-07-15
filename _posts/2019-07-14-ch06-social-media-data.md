@@ -6,7 +6,7 @@ Team 1: Robert Lott, James Hogue, & Kirsten VanDeventer
 
 ## Topic Overview
 
-
+The value of social media is an ever-changing medium. In other words, it is far from static. Some may say that the use of social media is more like a practice, like law and medicine. It would not be too farfetched to come to a simple conclusion that most Americans view social media, such as Facebook and Twitter, with negative connotations. The true value of social media extends far beyond stalking exes and arguing about politics. From Middle Eastern nations to natural disasters much closer to home in Oklahoma, social media’s reach is undeniable. Not to disappoint video sharing cat lovers from Glendale but data from social media has the capability of providing a positive service to world. 
 
 
 ## Chapter Summaries
