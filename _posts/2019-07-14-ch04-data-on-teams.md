@@ -33,19 +33,10 @@ UCLA has been using portable personal air-sensors to track environmental air qua
 In summary, people value their personal information and there is a huge interest in individuals wanting to protect and choose the data they want to share. Therefore, there is still a lot to be explored in providing data collecting software that allows the user to choose the data he/she wants to share and in the use of incentives to increase participation in small group data collection.
 
 
-### Observing People in Organizations
-
-### Gathering Group Data
 
 
+## Discussion Questions (for Yellowdig)
 
-
-## Key Take-Aways (for Yellowdig)
-* How social networks can make us smarter
-* Breadcrumbs
-* 
-
-### Discussion Questions
 
 1. Do you feel that Big Data is here to stay, or in the alternative, here to stay; however, morphed into a more streamlined,    consumer specific and useable for non-invasive group tracking and research?
 
