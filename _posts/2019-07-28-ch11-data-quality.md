@@ -1,5 +1,5 @@
 ---
-title: "Relationship Discovery"
+title: "Data Quality"
 ---
 
 Team 1
