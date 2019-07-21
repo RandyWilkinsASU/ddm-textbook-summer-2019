@@ -4,6 +4,13 @@ title: "Data Quality"
 
 Team 1
 
+CH2 the rise of big crisis data- James
+
+CH7 Verifying Big Crisis Data Via Crowd Computing- Kirsten 
+
+CH8 verifying big crisis data via artificial intelligence- RJ
+
+
 
 
 ## References
