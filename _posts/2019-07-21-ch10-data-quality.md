@@ -20,6 +20,13 @@ Further concern with automated systems is the lack of human review; errors on cr
 
 While O’neil does not suggest we go back to the way banking was handled prior to the use of algorithms, she does recognize how e-scores are contaminating financing opportunities for those with lower credit scores. 
 
+Key Take-Aways
+
+While automated data collection used for consumer profiling and customer creditworthiness has expanded greatly, it is not a perfect system and does not provide equal opportunity for everyone.  
+
+Discussion Questions
+
+Where should fine-tuning the algorithms used in machine apps begin? Knowing there is inevitably inaccurate data, how do we get the statistical data to the best point possible?  
 
 
 ## References
