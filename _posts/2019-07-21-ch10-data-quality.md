@@ -44,6 +44,8 @@ Discussion Questions:
 
 The Level of Service Inventory-Revised (LSI-R) model qualifies as a WMD while lacking fairness and transparency; this begs the question of how can this model be fair to anyone?
 
+"Innocent people surrounded by criminals get treated badly, and criminals surrounded by law-abiding public get a pass." How does this cycle break when consindering data generated from these models correlates poverty and criminal behavior, and often times misses wealthy, white collar crimes? 
+
 Where should fine-tuning the algorithms used in machine apps begin? Knowing there is inevitably inaccurate data, how do we get the statistical data to the best point possible?  
 
 
