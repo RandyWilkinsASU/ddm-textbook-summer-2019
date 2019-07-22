@@ -5,8 +5,8 @@ title: "Discovery"
 Team 3: Cody Lundell, Christina Worden, Dan Gabiou
 
 # Topic Overview of Chapter 8: Discovery 
-This set of readings includes Chapter 2 of Social Physics: How Social Networks Can Make us Smarter, Chapter 8 of Reality
-Mining: Using Big Data to Engineer a Better World, and several discovery-related blog posts from the I Quant NY website.
+This set of readings includes Chapter 2 of *Social Physics: How Social Networks Can Make us Smarter*, Chapter 8 of *Reality
+Mining: Using Big Data to Engineer a Better World*, and several discovery-related blog posts from the I Quant NY website.
 In Chapter 2: Exploration of Social Physics…, Pentland (2015) states that “the most consistently creative and insightful
 people are explorers” (p. 26). By explorers, the author means that good ideas come from collaborating to obtain different
 perspectives, enhancing the idea, and repeating until confidence is built. Or in other words, “exploration is the part of the
@@ -16,7 +16,7 @@ gaining insight from big data and social networks, where “copying successful p
 diversity, 2) social learning (copying successful people/ideas), and 3) seeking out contrarian consensus (learning why groups
 of people are opposed to an idea) (p. 39-41).
 
-In Chapter 8 of Reality Mining: Using Big Data to Engineer a Better World, Eagle and Greene (2014) show examples of how data
+In Chapter 8 of *Reality Mining: Using Big Data to Engineer a Better World*, Eagle and Greene (2014) show examples of how data
 visualization (such as timelines, maps, and graphs) may be used to help predict, prioritize, prepare for, and address social,
 environmental, political, and economic issues. Data visualization goes beyond gathering data and identifying trends, it’s
 compiling such data into comprehensive visual aids to help policy makers and the public understand the direness of the
@@ -33,7 +33,7 @@ collaborate, and challenge data to ensure accuracy of both the data itself and w
 transformed in to easy-to-understand visualizations in order for such data to tell the full story and inspire action. Only
 then can we maximize the use of such data and more efficiently and effectively implement solutions.
 
-# I Quant NY Blog Post Discoveries Summary
+## I Quant NY Blog Post Discoveries Summary
 In the first blog post, Data Shows No Increase In NYC Plowing as Storm Picked Up, the author felt that inefficient snow plow
 operations were causing tremendous traffic problems, particularly during the evening rush hour. The author obtained raw snow
 plow/street centerline directly from New York City, depicted such data in GIS maps, and ultimately discovering that the city
@@ -60,6 +60,33 @@ the public. At the end of the day, most government agencies attempt to be transp
 posting meeting minutes, but many committees are not well-attended and most overseeing boards are not technically savvy,
 relying on government data to be accurate. By posting data online, the public has more access to validate government work,
 discover issues, and potentially enable corrective action.
+
+
+## Reality Mining Chapter 8 Summary 
+Big data from demographics, mobile usage, internet/social media advertising and searches, tweets, and financial institutions
+are covered in Chapter 8 of *Reality Mining: Using big data to engineer a better world*. Fascinating examples of data
+convergence are examined which can impact everything from health, personal finance, national sentiment and poverty. Eagle &
+Greene (2014) make the point that data visualization and storytelling through timelines, maps, and graphs, can be used by
+policymakers and nongovernmental organizations to see impactful results. 
+
+Big data varies in its availability and timeliness. For example, census and World Bank data provide important insights into
+populations but the data refreshes slowly whereas mobile phone data refreshes nearly in real time. Combining the historic data
+from the census with the real time data from mobile phones allows for better understanding of population growth and control.
+Converging this big data together, it would be possible to better understand, for example, the population flows of slums 
+the price of food staples. These models could help predict population influxes and allocate the right resources in the right
+location at the right time.
+
+There are some interesting and seemingly beneficial examples of using big data to better understand the flu season to track
+the internet searches relating to the flu or flu symptoms. This search could then be mapped to figure out where the flu is
+affecting people most in a country. Some examples are discussed in theory like financial data mining which is mostly
+controlled by the large banks. If this data was anonymized, it could help to anticipate economic disasters and help to develop
+data-based guides to improve depressed economies. 
+
+
+
+
+
+
 
 
 
