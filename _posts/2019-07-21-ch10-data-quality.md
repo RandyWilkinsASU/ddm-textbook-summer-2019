@@ -46,24 +46,24 @@ While O’neil does not suggest we go back to the way banking was handled prior 
 
 ## Key Take-Aways:
 
-Predictive mathematical modeling includes readily available statistical information and is transparent.
+•	Predictive mathematical modeling includes readily available statistical information and is transparent.
 Dynamic modeling covers the use of memorizing, updating and adjusting your model based on feedback received.
 
-Level of Service Inventory-Revised (LSI-R) is one of the more popular models. This model gathers data from those convicted to asses their level of risk for recidivism. This involves hidden modeling and is not transparent.
+•	Level of Service Inventory-Revised (LSI-R) is one of the more popular models. This model gathers data from those convicted to asses their level of risk for recidivism. This involves hidden modeling and is not transparent.
 
-O’neil summarizes the three elements of a WMD as: Opacity, Scale, and Damage; and argues that all elements are included to a certain degree in the examples that are covered in the book Weapons of Math Destruction.  They are ultimately unfair and universally damaging.  
+•	O’neil summarizes the three elements of a WMD as: Opacity, Scale, and Damage; and argues that all elements are included to a certain degree in the examples that are covered in the book Weapons of Math Destruction.  They are ultimately unfair and universally damaging.  
 
-Big Data and predictive programs are intended to help identify areas of high crime and assist police departments in addressing these crimes.  However, historical data shows us that impoverished neighborhoods are targeted more often than other neighborhoods, leading to more arrests in these neighborhoods, thereby producing unfair and biased results.  
+•	Big Data and predictive programs are intended to help identify areas of high crime and assist police departments in addressing these crimes.  However, historical data shows us that impoverished neighborhoods are targeted more often than other neighborhoods, leading to more arrests in these neighborhoods, thereby producing unfair and biased results.  
 
-While automated data collection used for consumer profiling and customer creditworthiness has expanded greatly, it is not a perfect system and does not provide equal opportunity for everyone.  
+•	While automated data collection used for consumer profiling and customer creditworthiness has expanded greatly, it is not a perfect system and does not provide equal opportunity for everyone.  
 
 ### Discussion Questions:
 
-The Level of Service Inventory-Revised (LSI-R) model qualifies as a WMD while lacking fairness and transparency; this begs the question of how can this model be fair to anyone?
+•	The Level of Service Inventory-Revised (LSI-R) model qualifies as a WMD while lacking fairness and transparency; this begs the question of how can this model be fair to anyone?
 
- "Innocent people surrounded by criminals get treated badly, and criminals surrounded by law-abiding public get a pass." How does this cycle break when consindering data generated from these models correlates poverty and criminal behavior, and often times misses wealthy, white collar crimes?
+•	"Innocent people surrounded by criminals get treated badly, and criminals surrounded by law-abiding public get a pass." How does this cycle break when consindering data generated from these models correlates poverty and criminal behavior, and often times misses wealthy, white collar crimes?
 
-Where should fine-tuning the algorithms used in machine apps begin? Knowing there is inevitably inaccurate data, how do we get the statistical data to the best point possible?  
+•	Where should fine-tuning the algorithms used in machine apps begin? Knowing there is inevitably inaccurate data, how do we get the statistical data to the best point possible?  
 
 ## References
 
