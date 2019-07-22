@@ -8,6 +8,13 @@ Chapter Summaries:
 
 Bomb Parts
 
+The Bomb Parts chapter goes into describing three kinds of models. The first model discussed involves Baseball and is discussed as a model because of its predictive mathematical modeling. It is considered one of the healthy case studies in contrast to some of the other toxic models often referred to Weapons of Math Destruction (WMD). The baseball model is considered fair due to the readily available statistical information that most anyone knows how to interpret, this it what makes it transparent when compared to some of the other models being discussed in this chapter. 
+
+The second model is referred to as a dynamic model which covers the use of memorizing, updating and adjusting your model based on what kinds of foods your family likes and dislikes. It’s a model that I think most of us use today to try and ensure that everyone at the table gets a healthy meal while providing them with something they will eat. This is a model that requires time, data updated daily and seeking feedback from family members. “No model can include all of the real world’s complexity or the nuance of human communication. Inevitably, some important information gets left out” (p. 20).
+
+Finally, the last model utilized is a hidden model and lacks transparency. Level of Service Inventory-Revised (LSI-R) is one of the more popular models discussed. This gathers data from those convicted to asses their level of risk for recidivism. “This questionnaire includes circumstances of a criminal’s birth and upbringing, including his or her family, neighborhood, and friends. These details should not be relevant to a criminal case or to the sentencing” (p. 26). This brings in the questions of fairness, and transparency because without it how can this model be fair to anyone?
+
+
 Civilian Casualties
 
 Collateral Damage
