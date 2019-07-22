@@ -29,6 +29,15 @@ While O’neil does not suggest we go back to the way banking was handled prior 
 
 Key Take-Aways:
 
+Predictive mathematical modeling includes readily available statistical information and is transparent.
+Dynamic modeling covers the use of memorizing, updating and adjusting your model based on feedback received.
+
+Level of Service Inventory-Revised (LSI-R) is one of the more popular models. This model gathers data from those convicted to asses their level of risk for recidivism. This involves hidden modeling and is not transparent.
+
+O’neil summarizes the three elements of a WMD as: Opacity, Scale, and Damage; and argues that all elements are included to a certain degree in the examples that are covered in the book Weapons of Math Destruction.  They are ultimately unfair and universally damaging.  
+
+Big Data and predictive programs are intended to help identify areas of high crime and assist police departments in addressing these crimes.  However, historical data shows us that impoverished neighborhoods are targeted more often than other neighborhoods, leading to more arrests in these neighborhoods, thereby producing unfair and biased results.  
+
 While automated data collection used for consumer profiling and customer creditworthiness has expanded greatly, it is not a perfect system and does not provide equal opportunity for everyone.  
 
 Discussion Questions:
