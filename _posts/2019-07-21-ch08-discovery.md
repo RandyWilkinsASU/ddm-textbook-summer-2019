@@ -87,7 +87,7 @@ data-based guides to improve depressed economies.
 
 * Have you used big data in your current or previous job to tell a story which makes a point or argues for a certain strategy? 
 
-* 
+
 
 
 
