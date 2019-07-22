@@ -95,9 +95,9 @@ Many “ordinary” people believe that “extraordinary” people are almost in
 
 **Social interactions.**  Integration of ideas within a social group has been around since the beginning of time.  The most primitive cultures of any species still find success when social interactions are built.  Great ideas are ones that flow well.
 
-**Idea Flow.**  In a nutshell, great ideas will impact a significant amount of people's behavior.  Susceptibility to the new idea’s ability to change behavior is key in exploration.
+**Idea flow.**  In a nutshell, great ideas will impact a significant amount of people's behavior.  Susceptibility to the new idea’s ability to change behavior is key in exploration.
 
-**Echo Chambers.**  There are some dangers to be aware of with social interactions and people relying on others’ ideas.  These are echo chambers or what are commonly known as fads and bubbles.  Great ideas that are copied many times become viral and can create specific influxes of similar behavior.  These can be dangerous because all fads and bubbles will eventually pop.  Great ideas must stand the test of time.
+**Echo chambers.**  There are some dangers to be aware of with social interactions and people relying on others’ ideas.  These are echo chambers or what are commonly known as fads and bubbles.  Great ideas that are copied many times become viral and can create specific influxes of similar behavior.  These can be dangerous because all fads and bubbles will eventually pop.  Great ideas must stand the test of time.
 
 ### Key Take-aways:
 
