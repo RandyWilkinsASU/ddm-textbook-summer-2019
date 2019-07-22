@@ -83,13 +83,29 @@ affecting people most in a country. Some examples are discussed in theory like f
 controlled by the large banks. If this data was anonymized, it could help to anticipate economic disasters and help to develop
 data-based guides to improve depressed economies. 
 
+## Exporation
+
+Many “ordinary” people believe that “extraordinary” people are almost inhumanly intuitive, creative, and resourceful.  The exploration concept would suggest another method for how great ideas and behaviors actually come to be.  Exploration of ideas requires a few key concepts such as testing compelling stories, diversity, winning down ideas, social interactions, idea flow, and echo chambers.
+
+**Compelling stories.**  Compelling stories are the genesis of all great ideas or expansions of existing ideas.  Individuals that explore usually always have a collection of ideas that they are testing out with people.  The challenge is to test a wide range of people, skill sets, and perspectives.  That is the only way to understand how effective the story is against reality.
+
+**Diversity.**  Diversity is crucial to successful exploration.  Average performers will only discuss and bounce ideas with like individuals.  This limits that applicability and susceptibility of their idea to change behavior.  An explorative individuals continues to test their ideas.
+
+**Winnowing down ideas.**  As stated previously, individuals that explore always have a collection of ideas or stories.  The process of testing against diversity is called winnowing.  Just as an elegant blade’s edge can be honed to a hair-popping sharpness, sufficient winnowing will product a solid idea that is ready to integrate.
+
+**Social interactions.**  Integration of ideas within a social group has been around since the beginning of time.  The most primitive cultures of any species still find success when social interactions are built.  Great ideas are ones that flow well.
+
+**Idea Flow.**  In a nutshell, great ideas will impact a significant amount of people's behavior.  Susceptibility to the new idea’s ability to change behavior is key in exploration.
+
+**Echo Chambers.**  There are some dangers to be aware of with social interactions and people relying on others’ ideas.  These are echo chambers or what are commonly known as fads and bubbles.  Great ideas that are copied many times become viral and can create specific influxes of similar behavior.  These can be dangerous because all fads and bubbles will eventually pop.  Great ideas must stand the test of time.
+
 ### Key Take-aways:
 
 * Have you used big data in your current or previous job to tell a story which makes a point or argues for a certain strategy?
 * Would you trust analysis of public sector data performed by the public or even private sector organizations if you did not have a contract or agreement to have such individual/group assist in a project?
 * What sorts of checks and balances would need to occur for pro bono data analysis to be utilized in the public sector?
-
-
+* How can someone identify a diverse enough group to test ideas?
+* Can idea exploration tactics ensure concrete ideas to influence social change?
 
 ## References
 
