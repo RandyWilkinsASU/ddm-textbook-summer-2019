@@ -34,6 +34,8 @@ Chapter 6: Optimizing Resource Allocation (Judy Santos)
 
 
 
+
+
 Discussion Questions
 
 1.	Would you look at data when planning a trip?
