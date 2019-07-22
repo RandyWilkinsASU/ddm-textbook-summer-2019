@@ -33,6 +33,8 @@ collaborate, and challenge data to ensure accuracy of both the data itself and w
 transformed in to easy-to-understand visualizations in order for such data to tell the full story and inspire action. Only
 then can we maximize the use of such data and more efficiently and effectively implement solutions.
 
+## Chapter Summaries
+
 ## I Quant NY Blog Post Discoveries Summary
 In the first blog post, Data Shows No Increase In NYC Plowing as Storm Picked Up, the author felt that inefficient snow plow
 operations were causing tremendous traffic problems, particularly during the evening rush hour. The author obtained raw snow
@@ -73,8 +75,7 @@ Big data varies in its availability and timeliness. For example, census and Worl
 populations but the data refreshes slowly whereas mobile phone data refreshes nearly in real time. Combining the historic data
 from the census with the real time data from mobile phones allows for better understanding of population growth and control.
 Converging this big data together, it would be possible to better understand, for example, the population flows of slums 
-the price of food staples. These models could help predict population influxes and allocate the right resources in the right
-location at the right time.
+and the price of food staples. These models could help predict population influxes and allocate the right resources in the right location at the right time.
 
 There are some interesting and seemingly beneficial examples of using big data to better understand the flu season to track
 the internet searches relating to the flu or flu symptoms. This search could then be mapped to figure out where the flu is
@@ -82,8 +83,11 @@ affecting people most in a country. Some examples are discussed in theory like f
 controlled by the large banks. If this data was anonymized, it could help to anticipate economic disasters and help to develop
 data-based guides to improve depressed economies. 
 
+### Key Take-aways:
 
+* Have you used big data in your current or previous job to tell a story which makes a point or argues for a certain strategy? 
 
+* 
 
 
 
