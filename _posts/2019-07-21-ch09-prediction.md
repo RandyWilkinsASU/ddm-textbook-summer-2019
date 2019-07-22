@@ -2,9 +2,7 @@
 title: "Prediction (Playing Moneyball)"
 ---
 
-
 Team 4: Martha Ramos, Philip Schlotter, Randolph Wilkins
-
 
 ## Topic Overview (Randy Wilkins)
 
@@ -16,7 +14,6 @@ Widespread use of the data collected by Big Data has long posed questions about 
 
 ## Chapter Summaries
 
-
 Chapter 10: Engineering a Safer and Healthier World (Philip Schlotter)
 
 Eagle and Greene discuss that with the proliferation of data and the increasing availability of data, it may be possible to engineer a safer and healthier world but learning how to track and update the movement of people.  The research is not looking at ambulation of individuals but instead the movement of a heard.  By understanding first that disease travels in or on people and other vectors like insects may travel on or in airlines, cargo ships or trains, we can follow the reports of illness around the world through various trade and travel routes.
@@ -27,14 +24,18 @@ While that data collection method would require that people acknowledge to and s
 
 Data is collected from each of us hundreds of times each day from what we search on-line to where we purchase our groceries to what kind of ketchup we prefer.  Will the evolution of big data help us to improve our health or simply allow us to coordinate our travel to healthier locations?
 
-Chapter 6: Optimizing Resource Allocation (Judy Santos)
+Chapter 6: Optimizing Resource Allocation (Judy Ramos)
+Engineering and Policy: Optimizing Resource Allocation
 
+In this area of data driven interest, researchers are utilizing technology to track trends in traffic conditions, develop emergency response evacuations, track contagions and how they spread to identify the source, and track patterns in community crime. Therefore, it is not surprising that researchers continue to utilize innovative technology along with existing technology to make predictions about the future of these conditions. This chapter discusses modern technology that is being employed by various researchers to make predictions and allocate resources using data models.
 
+Inrix and Google have been the two top companies that have been using data patterns to estimate travel times. These companies can do this through real-time data and provide information on accidents, traffic jams, and road conditions. The technology uses current algorithms from GPS and WiFi locations to provide accurate real-time data on driving times. Unfortunately, this technology has not been able to be used to make future predictions on travel times. However, Microsoft researchers developed software called SmartPhlow that records data in 15-minute intervals to include anomalies in traffic patterns and make predictions in future patterns with 50% to include unforeseen incidents in traffic.
 
+The Vehicle Probe Project of VPP technology relies on GPS technology and is used to determine highway performance and plan highway improvements. This technology was used in Washington D.C. and Philadelphia to assist City Planners in addressing issues of congestions in traffic. This technology is also used during evacuations to determine the best routes for the public to take during a crisis. Florida used this technology during the hurricane crisis that they recently faced. Another use for tracking large amounts of traffic data is to track the spread of contagions. Traffic patterns allow researchers the ability to track the source of the germ, how it’s moving, and where it is heading. This allows the ability to provide the proper resources such as medical staff, immunization, or areas of quarantine. 
 
+Crime statistics have also entered the digital age and it has become common practice to track data on various crime types. However, through the use of crime models, such as Comstat cities have the ability to predict future crimes using existing crime patterns. Places such as Pittsburg, Santa Cruz and New York have utilized the crime prediction tool and it has been noted as assisting in lowering crime rates in these cities. This technology makes it possible to allocate the proper resources especially during the times when many municipalities are facing budget cuts. However, the acceptance of this use of technology is not yet widely accepted by many agencies.
 
-
-
+There is still a lot to be explored in this data driven age but, researchers continue to utilize innovative technology along with existing technology to make predictions about the future using traffic models to enhance response time, provide the proper resources, and save lives.
 
 Discussion Questions
 
@@ -42,13 +43,8 @@ Discussion Questions
 2.	Would you change your destination if you found that a flu outbreak was present at the time you wanted to visit?
 3.	Would you travel on a particular bridge if you knew the probabilities of its failure?
 4.	Would you chose to take a medication if the efficacy was in question?
-5.	
-6.	
-
-
-
-
-
+5.	Would you utilize future prediction models to plan trips and if yes, would you trust the drive times? why or why not?
+6.	Do you believe the use of traffic data technology to track contagions, where the originate, where they are heading worth further exploration by researchers?
 
 ## References
 
