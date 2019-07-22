@@ -86,13 +86,8 @@ data-based guides to improve depressed economies.
 ### Key Take-aways:
 
 * Have you used big data in your current or previous job to tell a story which makes a point or argues for a certain strategy?
-* 
-* 
-
-
-
-
-
+* Would you trust analysis of public sector data performed by the public or even private sector organizations if you did not have a contract or agreement to have such individual/group assist in a project?
+* What sorts of checks and balances would need to occur for pro bono data analysis to be utilized in the public sector?
 
 
 
