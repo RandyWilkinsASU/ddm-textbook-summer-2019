@@ -42,6 +42,8 @@ While automated data collection used for consumer profiling and customer creditw
 
 Discussion Questions:
 
+The Level of Service Inventory-Revised (LSI-R) model qualifies as a WMD while lacking fairness and transparency; this begs the question of how can this model be fair to anyone?
+
 Where should fine-tuning the algorithms used in machine apps begin? Knowing there is inevitably inaccurate data, how do we get the statistical data to the best point possible?  
 
 
