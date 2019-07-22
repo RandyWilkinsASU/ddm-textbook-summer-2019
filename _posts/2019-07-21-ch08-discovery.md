@@ -85,7 +85,9 @@ data-based guides to improve depressed economies.
 
 ### Key Take-aways:
 
-* Have you used big data in your current or previous job to tell a story which makes a point or argues for a certain strategy? 
+* Have you used big data in your current or previous job to tell a story which makes a point or argues for a certain strategy?
+* 
+* 
 
 
 
