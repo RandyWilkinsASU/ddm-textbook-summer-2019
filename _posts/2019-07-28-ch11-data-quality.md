@@ -22,7 +22,13 @@ Political opinion also plays a significant role throughout this chapter. There i
 The Chapter closes with the idea of being unable to truly identify if crowd sourced information is indeed being falsified or not, discussing how to be a digital Sherlock Holmes. This concept was the crowd correcting the posts of those that were putting out inaccurate information. Furthering this concept were Skype detectives, which proved to actually be affective. Once a “rumor was identified and determined false 2,000 people could share that information within their own networks in minutes…. In addition members of the skype group were able to ping their media contacts to quickly counter the further spread of the misinformation”. 
 
 
-CH8 verifying big crisis data via artificial intelligence- RJ
+CH8 verifying big crisis data via artificial intelligence- 
+
+Natural disasters are a cruel, awful reality. When they do occur, the last thing somebody or perhaps an organization wants to spend valuable time and resources on is to verify the credibiltity of information taken in via artificial intellignce. Verifying the source and the context of information on the intake is difficult and tedious. Traditional journalism tied with the use of ever-changing artificial intelligence can help mitigate these problems during difficult times. The emotional toll that can wreck on an idividual can be greatly under appreciated. Non-credible sources make this use of technology all too real.
+
+Recent "fake news" in the forms of tweets or other social media outlets is becomming all too common. Using mechanisms to verify the validity of the messages can be done via artifical intelligence and machine learning. Some may not know how machine learning can play a vital role in this process. Machine learning is an use of artificial intelligence that allows systems the opportunity to routinely become smarter and improve from knowledge without being programmed for that specific task. The chapter refers to an earthquake in Chile and how the role of noncredible tweets played a signficance. Even the BBC needs the use of this type of technology.
+
+The abiliy for essentially anyone to deem data original and sincere can be done. There is no need for a devastating natural disaster to strike. The combination of artificial intelligence and machine learning is powerful and does have everyday application. Identifying fake posts on social media can be done with a relatively high level of accuracy. We have certainly come a long way from that now infamous clip for the morning television talk show "Today" where the hosts crack jokes about just what exactly is email. No #mythbuster tag needed here.
 
 
 
